@@ -1,0 +1,37 @@
+.app {
+    padding: 20px;
+  }
+  
+  .product-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-list th, .product-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .product-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .quick-edit {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .quick-edit label {
+    margin-right: 10px;
+  }
+  
